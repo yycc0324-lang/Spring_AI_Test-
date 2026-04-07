@@ -6,3 +6,9 @@ Spring:
       base-url: http://localhost:11434
       chat:
         model: deepseek-r1:8b
+Logging:
+    level:
+        org.springframework.ai.chat.client: debug
+        com.sias.spring_ai_test: debug
+server:
+  port: 8080
